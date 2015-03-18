@@ -10,7 +10,7 @@ For now just a wrapper around the gem 'reform' (see https://github.com/apotonick
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'view_model', :git => 'gitlab@gitlab.neopoly.de:neopoly/view_model.git'
+gem 'view_model'
 ```
 
 And then execute:
