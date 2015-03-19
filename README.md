@@ -1,9 +1,10 @@
 # ViewModels
 
-Rails compatible view models.
-For now just a wrapper around the gem 'reform' (see https://github.com/apotonick/reform).
+Rails compatible view models ignoring persistence.
+Just a wrapper around the gems 'virtus' and 'activemodel'.
 
-`ViewModel::Base` simply inherits from `Reform::Form`
+https://github.com/solnic/virtus
+https://github.com/rails/rails/tree/master/activemodel
 
 ## Installation
 
@@ -20,6 +21,13 @@ And then execute:
 ## Usage
 
 ```ruby
-BusinessModel = Class.new
-ViewModel::Base.new(BusinessModel.new)
+class Profile < ViewModel::Base
+  attribute :name, String
+  validates :name, :presence => true
+end
+  
+vm = Profile.new({:name => 'Bob'})
+
+vm.valid? # => true
+vm.attributes # => {:name => 'Bob'}
 ```
