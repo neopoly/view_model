@@ -5,7 +5,7 @@
 [travis-badge]: https://img.shields.io/travis/neopoly/view_model.svg?branch=master
 [codeclimate]: https://codeclimate.com/github/neopoly/view_model
 [codeclimate-climate-badge]: https://img.shields.io/codeclimate/github/neopoly/view_model.svg
-[codeclimate-coverage-badge]: https://codeclimate.com/github/neopoly/view_model/badges/view_model.svg
+[codeclimate-coverage-badge]: https://codeclimate.com/github/neopoly/view_model/badges/coverage.svg
 [inchpages]: https://inch-ci.org/github/neopoly/view_model
 
 # ViewModel
