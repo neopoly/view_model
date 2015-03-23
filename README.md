@@ -1,20 +1,22 @@
 [github]: https://github.com/neopoly/view_model
 [doc]: http://rubydoc.info/github/neopoly/view_model/master/file/README.md
 [gem]: https://rubygems.org/gems/view_model
+[gem-badge]: https://img.shields.io/gem/v/view_model.svg
 [travis]: https://travis-ci.org/neopoly/view_model
 [travis-badge]: https://img.shields.io/travis/neopoly/view_model.svg?branch=master
 [codeclimate]: https://codeclimate.com/github/neopoly/view_model
 [codeclimate-climate-badge]: https://img.shields.io/codeclimate/github/neopoly/view_model.svg
 [codeclimate-coverage-badge]: https://codeclimate.com/github/neopoly/view_model/badges/coverage.svg
 [inchpages]: https://inch-ci.org/github/neopoly/view_model
+[inchpages-badge]: https://inch-ci.org/github/neopoly/view_model.svg?branch=master&style=flat
 
 # ViewModel
 
 [![Travis][travis-badge]][travis]
-[![Gem Version](https://img.shields.io/gem/v/view_model.svg)][gem]
+[![Gem Version][gem-badge]][gem]
 [![Code Climate][codeclimate-climate-badge]][codeclimate]
 [![Test Coverage][codeclimate-coverage-badge]][codeclimate]
-[![Inline docs](https://inch-ci.org/github/neopoly/view_model.svg?branch=master&style=flat)][inchpages]
+[![Inline docs][inchpages-badge]][inchpages]
 
 [Gem][gem] |
 [Source][github] |
